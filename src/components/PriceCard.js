@@ -21,7 +21,7 @@ const PriceCard = (props) => {
                 const src = data.available ? check : crosscheck
                 return(
                     <div className={styles.price_list_item} alt="check">
-                        <img src={src} className={styles.check_img}></img>
+                        <img src={src} className={styles.check_img} alt="check"></img>
                         <p className={styles.price_item}>{data.text}</p>
                     </div>
                 )
