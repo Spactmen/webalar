@@ -1,0 +1,6 @@
+.price_cards_section{
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+    margin: 2rem 0;
+}

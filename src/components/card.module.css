@@ -1,0 +1,39 @@
+.card{
+    width:32rem;
+    padding: 2rem 4rem 3rem 2.5rem;
+    box-shadow: 0px 0px 20px #E1E4ED;
+    border-radius: 10px;
+    height: max-content;
+}
+.card_img{
+    width: 26px;
+}
+
+.card_head{
+    font-family: var(--ff-primary-head);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem 0 1.5rem 0;
+}
+
+.card_bio{
+    color: var(--clr-dark-primary);
+    font-family: var(--ff-primary-bio);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+.card_read_more_bio{
+    color: white;
+    font-family: var(--ff-primary-head);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.card_read_more{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0 0 0;
+}
